@@ -1,4 +1,6 @@
-ThreadPool
-==========
+Simple Thread Pool
+==================
 
-Simple thread pool
+Intended for use with boost::bind to reduce the function arity (see example.cpp).
+
+Hopefully doesn't have too many race conditions. 
